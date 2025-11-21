@@ -1,0 +1,8 @@
+    html,body { height:100%; margin:0; background:#000; overflow:hidden; }
+    canvas { display:block; }
+    #label {
+      position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+      color:#fff; background: rgba(0,0,0,0.45); padding:6px 10px; border-radius:6px;
+      font-family: system-ui,Segoe UI,Roboto,Arial,sans-serif; font-size:13px; pointer-events:none;
+      z-index:10; display:none;
+    }
